@@ -128,7 +128,7 @@
         android:text="Profile" />
 
     <Button
-        android:id="@+id/homeScreen"
+        android:id="@+id/LogOut"
         android:layout_width="100dp"
         android:layout_height="37dp"
         android:layout_alignParentStart="true"
@@ -139,5 +139,5 @@
         android:layout_marginTop="632dp"
         android:layout_marginEnd="287dp"
         android:layout_marginBottom="61dp"
-        android:text="HomeScreen" />
+        android:text="LogOut" />
 </RelativeLayout>

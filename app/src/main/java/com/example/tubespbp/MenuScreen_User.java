@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MenuScreen_User extends AppCompatActivity
 {
-    private Button btnNextMyRecipe, btnNextProfile, btnNextHomeScreen;
+    private Button btnNextMyRecipe, btnNextProfile, btnLogOut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -26,8 +26,8 @@ public class MenuScreen_User extends AppCompatActivity
             }
         });
 
-        btnNextHomeScreen = (Button) findViewById(R.id.homeScreen);
-        btnNextHomeScreen.setOnClickListener(new View.OnClickListener() {
+        btnLogOut = (Button) findViewById(R.id.LogOut);
+        btnLogOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent nextHomeScreen= new Intent(MenuScreen_User.this, Home_Screen.class);
