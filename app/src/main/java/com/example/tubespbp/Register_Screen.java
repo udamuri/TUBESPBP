@@ -79,8 +79,8 @@ public class Register_Screen extends AppCompatActivity {
     }
 
     private void initializeUI() {
-        emailTV = findViewById(R.id.email);
-        passwordTV = findViewById(R.id.password);
+        emailTV = findViewById(R.id.txtEmailReg);
+        passwordTV = findViewById(R.id.txtPassReg);
         regBtn = findViewById(R.id.btnSaveReg);
         progressBar = findViewById(R.id.progressBar);
     }

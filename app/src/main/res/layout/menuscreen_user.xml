@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/menuScreenR6"
+        android:layout_width="162dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="239dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="138dp"
+        android:text="Recipe 6" />
+
+    <TextView
+        android:id="@+id/menuScreenR4"
+        android:layout_width="162dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="294dp"
+        android:text="Recipe 4" />
+
+    <TextView
+        android:id="@+id/menuScreenR5"
+        android:layout_width="162dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="136dp"
+        android:text="Recipe 5" />
+
+    <TextView
+        android:id="@+id/menuScreenR3"
+        android:layout_width="162dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="292dp"
+        android:text="Recipe 3" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="261dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="630dp" />
+
+    <TextView
+        android:id="@+id/menuScreenR1"
+        android:layout_width="162dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="448dp"
+        android:text="Recipe 1" />
+
+    <TextView
+        android:id="@+id/menuScreenR2"
+        android:layout_width="162dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="239dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="448dp"
+        android:text="Recipe 2" />
+
+    <Button
+        android:id="@+id/myRecipe"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="298dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="62dp"
+        android:text="MyRecipe" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="633dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="60dp"
+        android:text="Profile" />
+
+    <Button
+        android:id="@+id/homeScreen"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="61dp"
+        android:text="HomeScreen" />
+</RelativeLayout>
