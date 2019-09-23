@@ -2,9 +2,6 @@ package com.example.tubespbp;
 
 import java.io.Serializable;
 
-/**
- * Created by jumidi on 24/11/2017.
- */
 
 public class DataModel implements Serializable {
     Integer viewType;
