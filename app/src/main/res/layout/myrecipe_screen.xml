@@ -85,15 +85,15 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="139dp"
-        android:layout_marginTop="583dp"
-        android:layout_marginEnd="119dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="589dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="95dp"
         android:background="@drawable/custom_button"
         android:text="Back"
         android:textAllCaps="False"
+        android:textColor="#FFFFFF"
 
-        android:textColor="#FFFFFF" />
+        />
 
 </RelativeLayout>
