@@ -18,7 +18,8 @@
         android:layout_marginEnd="85dp"
         android:layout_marginBottom="459dp"
         android:ems="10"
-        android:hint="Password" />
+        android:hint="Password"
+        android:inputType="textPassword" />
 
     <EditText
         android:id="@+id/txtUserLog"
@@ -33,7 +34,8 @@
         android:layout_marginEnd="86dp"
         android:layout_marginBottom="530dp"
         android:ems="10"
-        android:hint="Username" />
+        android:hint="Username"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/btnLogLog"

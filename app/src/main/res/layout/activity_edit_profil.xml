@@ -21,7 +21,7 @@
         android:textColor="#FFFFFF" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/txtEditProfilNama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -29,11 +29,11 @@
         android:layout_marginTop="54dp"
         android:layout_marginEnd="88dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Name"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/txtEditProfilPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -42,10 +42,11 @@
         android:layout_marginTop="178dp"
         android:layout_marginEnd="88dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/txtEditProfilEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -53,10 +54,11 @@
         android:layout_marginTop="115dp"
         android:layout_marginEnd="88dp"
         android:ems="10"
+        android:hint="E-mail"
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/txtEditProfilPasswordComfrim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -64,29 +66,52 @@
         android:layout_marginTop="244dp"
         android:layout_marginEnd="86dp"
         android:ems="10"
+        android:hint="Confrim Password"
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/txtEditProfilPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="312dp"
+        android:layout_marginTop="377dp"
         android:layout_marginEnd="88dp"
         android:ems="10"
+        android:hint="Phone"
         android:inputType="phone" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/txtEditProfilAlamat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="83dp"
-        android:layout_marginBottom="304dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="252dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:layout_width="210dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="301dp" >
+
+        <RadioButton
+            android:id="@+id/radioButtonEditProfilMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioButtonEditProfilFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
 
 </RelativeLayout>
