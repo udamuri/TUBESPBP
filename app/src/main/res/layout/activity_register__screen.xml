@@ -98,18 +98,23 @@
 
     <Button
         android:id="@+id/btnSaveReg"
-        android:layout_width="wrap_content"
+        android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="569dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="114dp"
-        android:text="Save" />
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="574dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="109dp"
+        android:background="@drawable/custom_button"
+        android:text="Save"
+        android:textAllCaps="False"
+        android:textColor="#FFFFFF"
+
+        />
 
     <ProgressBar
         android:id="@+id/progressBar"

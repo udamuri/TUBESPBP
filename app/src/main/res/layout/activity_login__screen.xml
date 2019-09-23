@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -46,7 +47,12 @@
         android:layout_marginTop="369dp"
         android:layout_marginEnd="128dp"
         android:layout_marginBottom="314dp"
-        android:text="Login" />
+        android:text="Login"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="False"
+        />
 
     <TextView
         android:id="@+id/textView2"
@@ -75,4 +81,5 @@
         android:layout_marginEnd="165dp"
         android:layout_marginBottom="34dp"
         android:text="Click Here?" />
+
 </RelativeLayout>

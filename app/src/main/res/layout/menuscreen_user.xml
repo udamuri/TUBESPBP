@@ -111,7 +111,12 @@
         android:layout_marginTop="631dp"
         android:layout_marginEnd="13dp"
         android:layout_marginBottom="62dp"
-        android:text="MyRecipe" />
+        android:text="MyRecipe"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="False"
+
+        />
 
     <Button
         android:id="@+id/profile"
@@ -121,11 +126,16 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="167dp"
-        android:layout_marginTop="633dp"
-        android:layout_marginEnd="143dp"
-        android:layout_marginBottom="60dp"
-        android:text="Profile" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/custom_button"
+        android:text="Profile"
+        android:textAllCaps="False"
+
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/LogOut"
@@ -139,5 +149,10 @@
         android:layout_marginTop="632dp"
         android:layout_marginEnd="287dp"
         android:layout_marginBottom="61dp"
-        android:text="LogOut" />
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button_back"
+        android:textAllCaps="False"
+
+        />
 </RelativeLayout>

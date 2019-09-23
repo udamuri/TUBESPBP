@@ -104,7 +104,12 @@
         android:layout_marginTop="634dp"
         android:layout_marginEnd="22dp"
         android:layout_marginBottom="60dp"
-        android:text="Edit Profile" />
+        android:text="Edit Profile"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="False"
+
+        />
 
     <Button
         android:id="@+id/backMenuScreenUser"
@@ -118,6 +123,11 @@
         android:layout_marginTop="634dp"
         android:layout_marginEnd="232dp"
         android:layout_marginBottom="60dp"
-        android:text="Home Screen" />
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="False"
+
+        />
 
 </RelativeLayout>
