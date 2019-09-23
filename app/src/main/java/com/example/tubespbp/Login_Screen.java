@@ -20,7 +20,7 @@ public class Login_Screen extends AppCompatActivity
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent btnLogin= new Intent(Login_Screen.this, MenuScreen_User.class);
+                Intent btnLogin= new Intent(Login_Screen.this, Beranda.class);
                 startActivity(btnLogin);
             }
         });
